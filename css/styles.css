@@ -81,14 +81,15 @@
 }
 
 .footer {
-  border: 2px solid rgba(37, 38, 94, 0.6);
   border-color: rgba(37, 38, 94, 0.6);
-  margin: 20px 0px 0px 0px;
   padding: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: rgba(37, 38, 94, 0.6);
 }
 
 .footer a {
@@ -246,4 +247,8 @@ body {
 .fa-arrow-up:hover {
   background-color: black;
   color: aliceblue;
+}
+
+.last {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=styles.css.map */

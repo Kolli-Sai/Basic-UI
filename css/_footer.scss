@@ -1,16 +1,14 @@
 .footer {
-  border: 2px solid $normalColor;
-  //   border-top: 2px;
-  //   border-style: solid;
   border-color: $normalColor;
-  //   border-radius: 20px;
-  margin: 20px 0px 0px 0px;
   padding: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  //   background-color: rgba(37, 38, 94, 0.411);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: $normalColor;
+  //   background-color: $normalColor;
 }
 
 .footer a {
