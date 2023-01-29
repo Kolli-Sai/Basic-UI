@@ -1,0 +1,37 @@
+.footer {
+  border: 2px solid $normalColor;
+  //   border-top: 2px;
+  //   border-style: solid;
+  border-color: $normalColor;
+  //   border-radius: 20px;
+  margin: 20px 0px 0px 0px;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  //   background-color: rgba(37, 38, 94, 0.411);
+}
+
+.footer a {
+  margin-right: 20px;
+}
+.center {
+  text-align: center;
+}
+
+.fa-fb:hover {
+  color: #3b5998;
+}
+.fa-in:hover {
+  color: #feda75;
+}
+.fa-tw:hover {
+  color: #00acee;
+}
+.fa-li:hover {
+  color: #0a66c2;
+}
+.fa-gi:hover {
+  color: #171515;
+}
