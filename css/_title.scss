@@ -1,9 +1,13 @@
 .title {
-  display: flex;
+  display: grid;
   justify-content: center;
   font-family: $normalFontFamily;
   font-weight: $headingFontWeight;
   font-size: $headingFontSize;
   color: $headingColor;
   line-height: $headingLineHeight;
+}
+
+.title > img {
+  float: left;
 }

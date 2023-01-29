@@ -60,28 +60,25 @@ body {
     grid-template-columns: 1fr;
   }
   .main-top {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
   }
   .block {
     grid-template-columns: 1fr;
   }
-  iframe {
-    // width: 80%;
-    height: auto;
+}
+@media only screen and (max-width: 480px) {
+  .main-top {
+    grid-template-columns: 1fr;
   }
 }
 
 @media only screen and (min-width: 769px) {
   .main-top {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .main-bottom {
     grid-template-columns: 1fr 1fr;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .main-bottom {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
